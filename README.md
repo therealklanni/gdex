@@ -19,7 +19,7 @@ npm install -g gdex
 ## Usage
 
 ```sh
-$ gdex [<options>]
+$ gdex [<branch1> <branch2>]
 ```
 
 Type to fuzzy-search branches to compare.
