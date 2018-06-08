@@ -1,0 +1,29 @@
+{
+  "name": "gdex",
+  "version": "0.1.0",
+  "description": "(g)it (d)iff (ex)plorer",
+  "main": "gdex",
+  "bin": {
+    "gdex": "gdex"
+  },
+  "scripts": {
+    "test": "echo 'It works!'"
+  },
+  "keywords": [
+    "git",
+    "diff",
+    "zsh",
+    "fzf",
+    "preview"
+  ],
+  "author": "Kevin Lanni <therealklanni@gmail.com> (https://github.com/therealklanni)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/therealklanni/gdex.git"
+  },
+  "bugs": {
+    "url": "https://github.com/therealklanni/gdex/issues"
+  },
+  "homepage": "https://github.com/therealklanni/gdex#readme"
+}
