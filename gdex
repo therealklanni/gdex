@@ -15,9 +15,10 @@ else
 fi
 
 git diff --name-status --relative $old $new |
-fzf --reverse --prompt='[File] > '                                             \
-    --preview="echo {} | cut -f2 |                                             \
-               xargs -I % git diff --patience --color=always $old $new -- %"   \
+fzf --reverse --prompt='[File] > ' \
+    --preview="echo {} | cut -f2 | \
+               xargs -I % git diff --patience --color=always $old $new -- %" \
+    --preview-window=bottom:60% \
     --bind="ctrl-m:execute:(echo {} | cut -f 2 |
             xargs -I % git diff --patience --color=always $old $new -- % |
             less -R)"
