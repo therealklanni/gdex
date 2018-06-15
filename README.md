@@ -2,6 +2,8 @@
 
 > Interactive `git diff` (branch compare) using [`fzf`](https://github.com/junegunn/fzf)
 
+![demo](demo.gif)
+
 ## Installation
 
 CURL:
