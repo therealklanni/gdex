@@ -27,14 +27,14 @@ Type to fuzzy-search branches to compare.
 Keys:
 
 - **up/down**: navigate (click line also works)
-- **ctrl-b**: create a branch from selected stash
-- **del**: drop selected stash
-- **enter**: view full diff (less)
+- **enter**: select branch / view full diff (less)
 - **esc**: exit gdex
 
 ## Related tools
 
 [gsex](https://github.com/therealklanni/gsex) - g(it) s(tash) ex(plorer)
+
+[glex](https://github.com/therealklanni/glex) - g(it) l(og) ex(plorer)
 
 ## License
 
