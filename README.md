@@ -1,4 +1,4 @@
-# g(it) d(iff) ex(plorer)
+# g(it) d(iff) ex(plorer) ![](https://img.shields.io/npm/dt/glex?logo=npm)
 
 > Interactive `git diff` (branch compare) using [`fzf`](https://github.com/junegunn/fzf)
 
